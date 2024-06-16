@@ -167,7 +167,7 @@ Persistance is a java class which implements different interface.They are -
 **executeUpdate()** which is used to modify multiple data in the db in single sort.
 
 
-   ![Hierarhy](image/Hibernate hierarchy.drawio.png)
+![Hierarhy](image/Hibernate hierarchy.drawio.png)
 
 
 
