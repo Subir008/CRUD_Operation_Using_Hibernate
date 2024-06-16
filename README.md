@@ -65,11 +65,11 @@ Add the Persistence code in the pom.xml file within dependencies tag.
 * Add these persistence code written down in that file with proper table name,path name, password.
 
 
-	 <?xml version="1.0" encoding="UTF-8"?><persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	 	<?xml version="1.0" encoding="UTF-8"?><persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
 	  http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd" version="2.1">
-	<persistence-unit name="Dev">
+		<persistence-unit name="Dev">
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>      <!-- for caching -->  
 		<properties>
@@ -81,8 +81,8 @@ Add the Persistence code in the pom.xml file within dependencies tag.
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect"/>
 		</properties>
-	</persistence-unit>
-</persistence>
+		</persistence-unit>
+		</persistence>
 
 ##### 4th Step
 
@@ -167,7 +167,7 @@ Persistance is a java class which implements different interface.They are -
 **executeUpdate()** which is used to modify multiple data in the db in single sort.
 
 
-   ![Hierarhy](image/Hibernate hierarchy.drawio.png)
+   ![Hierarhy](image/[Hibernate hierarchy.drawio.png](https://drive.google.com/drive/u/2/folders/1mDdGolIbAow8iKh8E-7pKoJj6Xu4_mTB))
 
 
 
